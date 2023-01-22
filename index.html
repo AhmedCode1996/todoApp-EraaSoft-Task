@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="stylesheet" href="./style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TODO APP</title>
+  </head>
+  <body>
+    <main>
+      <section>
+        <article class="todo">
+          <div class="todo-header">
+            <h1>todos</h1>
+          </div>
+          <div class="todo-content flow-content">
+            <div>
+              <input
+                class="main-input"
+                type="text"
+                placeholder="What needs to be done?"
+              />
+            </div>
+            <div class="results-mark">
+              <input type="checkbox" name="check" id="check" />
+              <img
+                class="check-image"
+                src="./assets/checkBox.png"
+                alt="check image"
+              />
+              <label for="check">Mark all as complete</label>
+            </div>
+            <div class="tasks-container">
+              <!-- <div class="task">
+                <input type="checkbox" name="task" id="task" />
+                <img
+                  class="check-image"
+                  src="./assets/checkBox.png"
+                  alt="check image"
+                />
+                <label for="task">hello</label>
+                <button class="close-btn">
+                  <img src="./assets/close-task-dark.png" alt="close" />
+                </button>
+              </div> -->
+            </div>
+            <div class="tasks-summary">
+              <!-- <p>
+                <span class="task-number"></span>
+                items left
+              </p>
+              <button>
+                clear <span class="clear-number">0</span> completed item
+              </button> -->
+            </div>
+          </div>
+        </article>
+      </section>
+    </main>
+    <script src="./script.js" type="module"></script>
+  </body>
+</html>
